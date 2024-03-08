@@ -15,10 +15,6 @@ body {
 
 }
 
-.form-container:hover {
-    box-shadow: 0 0 0 0;
-}
-
 .adReg {
     text-align: end;
     font-weight: 500;
@@ -38,7 +34,7 @@ body {
 
 .form-container .alert-success {
     width: 100%;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     height: 2.5rem;
     border-radius: 0.5rem;
     border: 1px solid green;
@@ -100,10 +96,6 @@ body {
     margin-top: 1.5rem;
 }
 
-.lg-Container:hover {
-    box-shadow: 0 0 0 0;
-}
-
 .adnml {
     font-weight: bold;
     font-size: large;
@@ -112,4 +104,15 @@ body {
 
 p a {
     text-decoration: none;
+}
+
+.error-msg{
+    margin: 7px 0;
+    display: block;
+    background: rgb(227, 45, 60);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px;
+    text-align: center;
 }

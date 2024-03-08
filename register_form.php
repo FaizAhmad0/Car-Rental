@@ -76,7 +76,7 @@ if(isset($_POST['submit'])){
             <div class="mb-3">
                 <input name="cpassword" type="password" class="form-control" id="exampleFormControlInput1" placeholder="confirm your password">
             </div>
-            <select name="user_type">
+            <select name="user_type"class="form-control" id="exampleFormControlInput1">
                 <option value="user">user</option>
                 <option value="admin">admin</option>
             </select>
