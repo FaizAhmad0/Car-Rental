@@ -50,7 +50,7 @@ if(!isset($_SESSION['admin_name'])){
       </div>
       <div class="itemDetail">
          <div>
-            <a class="btn btn-outline-success" href="index.html">Click here to add car</a>
+            <a class="btn btn-outline-success" href="addProduct.php">Click here to add car</a>
          </div>
          
          <!-- activity tracker       -->

@@ -31,10 +31,10 @@ if(!isset($_SESSION['user_name'])){
             <div class="container">
                 <h1 class="logo"><a href="index.html">GoDrive</a></h1>
                 
-                <ul class="nav-links">
+                <!-- <ul class="nav-links">
                     <li><a href="#">AboutUs</a></li>
                     <li><a href="#">ContactUs</a></li>
-                </ul>
+                </ul> -->
             </div>
         </nav>
    </div>

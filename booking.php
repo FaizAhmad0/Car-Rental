@@ -18,7 +18,7 @@
 
     <div class="form-container">
 
-        <form action="" method="post">
+        <form action="connect.php" method="post">
             <h2>Booking</h2>
             <div>
                 <img class="imgofForm" src="assets/bugati.png" alt="Bugati">
@@ -41,7 +41,7 @@
             </div>
             
             
-            <select name="car_type" class="form-control" id="exampleFormControlInput1">
+            <select name="days" class="form-control" id="exampleFormControlInput1">
                 <option value="Choose car">Number of Day's</option>
                 <option value="Ferrari">1 Day</option>
                 <option value="MacLaren">2 Day's</option>
