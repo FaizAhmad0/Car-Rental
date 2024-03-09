@@ -60,12 +60,14 @@ if(!isset($_SESSION['user_name'])){
          </div>
          <div class="faqs">
             <h4>FAQs</h4>
-            <p class="question">What happens when I update my email address (or mobile number)?</p>
-            <p class="answer">Your login email id (or mobile number) changes, likewise. You'll receive all your account related communication on your updated email address (or mobile number).</p>
-            <p class="question">When will my Flipkart account be updated with the new email address (or mobile number)?</p>
-            <p class="answer">It happens as soon as you confirm the verification code sent to your email (or mobile) and save the changes.</p>
-            <p class="question">What happens to my existing Flipkart account when I update my email address (or mobile number)?</p>
-            <p class="answer">Updating your email address (or mobile number) doesn't invalidate your account. Your account remains fully functional. You'll continue seeing your Order history, saved information and personal details.</p>
+            <ol>
+               <li class="question">What happens when I update my email address (or mobile number)?</li>
+               <p class="answer">Your login email id (or mobile number) changes, likewise. You'll receive all your account related communication on your updated email address (or mobile number).</p>
+               <li class="question">When will my Flipkart account be updated with the new email address (or mobile number)?</li>
+               <p class="answer">It happens as soon as you confirm the verification code sent to your email (or mobile) and save the changes.</p>
+               <li class="question">What happens to my existing Flipkart account when I update my email address (or mobile number)?</li>
+               <p class="answer">Updating your email address (or mobile number) doesn't invalidate your account. Your account remains fully functional. You'll continue seeing your Order history, saved information and personal details.</p>
+            </ol>
          </div>
       </div>
    </div>
