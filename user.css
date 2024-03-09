@@ -103,3 +103,77 @@ div .question{
 .faqs{
     margin-top: 40px;
 }
+
+h6 {
+
+    padding: 5px;
+    background-color: white;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.bookings{
+    width: 40%;
+
+}
+div .upcbooking{
+    padding: 5px;
+    background-color: white;
+    margin-top: 1rem;
+    border: 1px solid white;
+}
+
+.upcItem{
+    font-size: large;
+    font-weight:200;
+    border: 1px solid white;
+}
+.upcItem:hover{
+    background-color: blue;
+    color: white;
+}
+.upcItem li{
+    margin-left: 0px;
+}
+
+
+
+/* activity tracker */
+
+.activity-tracker {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 4rem;
+}
+
+.activity-list {
+    margin-top: 20px;
+}
+
+.activity {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.activity:last-child {
+    border-bottom: none;
+}
+
+.activity-type {
+    font-weight: bold;
+}
+
+.activity-duration {
+    color: #555;
+}
+/* activity tracker end */
+
