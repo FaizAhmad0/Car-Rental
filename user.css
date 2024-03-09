@@ -58,27 +58,29 @@ body {
 
 
 
-.mainBox{
+.mainBox {
     display: flex;
     flex-direction: row;
     margin: 0 30px;
     margin-top: 80px;
-    
+
 }
-div .userCompo{
+
+div .userCompo {
     width: 40%;
     height: 80vh;
     margin-right: 15px;
     padding: 20px;
     background-color: rgb(219, 229, 237);
 }
-div .itemDetail{
+
+div .itemDetail {
     width: 100vw;
     padding: 20px;
 
 }
-h5{
 
+h5 {
     padding: 5px;
     background-color: white;
     height: 60px;
@@ -88,19 +90,22 @@ h5{
     font-weight: bold;
     margin-bottom: 30px;
 }
-.btn-outline-primary{
+
+.btn-outline-primary {
     background-color: white;
 }
 
-.btn-outline-danger img{
+.btn-outline-danger img {
     height: 80%;
     width: 10%;
     color: blue;
 }
-div .question{
+
+div .question {
     font-weight: bold;
 }
-.faqs{
+
+.faqs {
     margin-top: 40px;
 }
 
@@ -116,27 +121,30 @@ h6 {
     margin-bottom: 30px;
 }
 
-.bookings{
+.bookings {
     width: 40%;
 
 }
-div .upcbooking{
+
+div .upcbooking {
     padding: 5px;
     background-color: white;
     margin-top: 1rem;
     border: 1px solid white;
 }
 
-.upcItem{
+.upcItem {
     font-size: large;
-    font-weight:200;
+    font-weight: 200;
     border: 1px solid white;
 }
-.upcItem:hover{
+
+.upcItem:hover {
     background-color: blue;
     color: white;
 }
-.upcItem li{
+
+.upcItem li {
     margin-left: 0px;
 }
 
@@ -175,5 +183,35 @@ div .upcbooking{
 .activity-duration {
     color: #555;
 }
+
 /* activity tracker end */
 
+
+
+/*media query*/
+@media (max-width: 768px) {
+    .faqs {
+        display: none;
+    }
+
+    h5 {
+        overflow: auto;
+        padding: 0px;
+        background-color: white;
+        height: 60px;
+        align-items: center;
+        text-align: center;
+        padding-top: 0px;
+        font-weight: normal;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .gap-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+}

@@ -28,7 +28,8 @@ body {
     font-weight: bold;
     color: black;
 }
-.logo a:hover{
+
+.logo a:hover {
     color: blue;
 }
 
@@ -50,7 +51,8 @@ body {
     font-weight: bold;
     font-size: large;
 }
-.nav-links li a:hover{
+
+.nav-links li a:hover {
     color: blue;
 }
 
@@ -60,7 +62,7 @@ body {
 }
 
 /* form here going to write css for home */
-.main{
+.main {
     background-image: url('./assets/bg1.png');
     background-size: cover;
     background-position: center;
@@ -69,13 +71,27 @@ body {
     width: 100vw;
 }
 
-.heading{
+/*media query*/
+@media screen and (max-width: 768px) {
+    .main {
+        height: 60vh;
+        /* Adjust height for smaller screens */
+        width: 100vw;
+        background-size: contain;
+        /* Change background size for better fit */
+        background-position: center;
+    }
+}
+
+
+.heading {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
 }
-.card-main{
+
+.card-main {
     margin: 0px 10px;
     display: flex;
     flex-wrap: wrap;
@@ -85,28 +101,32 @@ body {
     margin-bottom: 20px;
 }
 
-@media (min-width: 350px) and (max-width: 450px){
-    .card-main{
+@media (min-width: 350px) and (max-width: 450px) {
+    .card-main {
         flex-wrap: wrap;
     }
 }
 
-.card{
+.card {
     width: 375px;
     height: 500px;
     transition: 1s ease;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.head{
+
+.head {
     margin: 15px;
     font-weight: bold;
 }
-.paragraph{
+
+.paragraph {
     margin: 15px;
 }
-.btn-outline-primary{
+
+.btn-outline-primary {
     width: 120px;
     margin: 15px;
 
@@ -116,62 +136,73 @@ body {
 
 /* About Section */
 #about .about {
-	flex-direction: column-reverse;
-	text-align: center;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 100px 20px;
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
 }
+
 #about .col-left {
-	width: 250px;
-	height: 360px;
+    width: 250px;
+    height: 360px;
 }
+
 #about .col-right {
-	width: 100%;
+    width: 100%;
 }
+
 #about .col-right h2 {
-	font-size: 1.8rem;
-	font-weight: 500;
-	letter-spacing: 0.2rem;
-	margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    margin-bottom: 10px;
 }
+
 #about .col-right p {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 #about .col-right .cta {
-	color: black;
-	margin-bottom: 50px;
-	padding: 10px 20px;
-	font-size: 2rem;
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 2rem;
 }
+
 #about .col-left .about-img {
-	height: 100%;
-	width: 100%;
-	position: relative;
-	border: 10px solid white;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 10px solid white;
 }
+
 #about .col-left .about-img::after {
-	content: '';
-	position: absolute;
-	left: -33px;
-	top: 19px;
-	height: 98%;
-	width: 98%;
-	border: 7px solid crimson;
-	z-index: -1;
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid crimson;
+    z-index: -1;
 }
 
 /* footer starts from here */
 .footer {
-    background-color:white;
-    color: black;
-    text-align: center;
-    text-justify: c;
     padding: 10px;
-    position:static;
+    position: static;
     bottom: 0;
     width: 100vw;
+    margin-top: 40px;
+    background-color: rgb(229, 240, 237);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }
+
 /* aboutus */
 
 .aboutUsMain {
@@ -191,6 +222,7 @@ div .abouthero {
     align-items: center;
     justify-content: center;
 }
+
 @media (min-width: 350px) and (max-width: 450px) {
     .abdivison {
         flex-wrap: wrap;
@@ -254,6 +286,7 @@ div .cHeader {
     display: flex;
     margin-left: 300px;
 }
+
 @media (min-width: 350px) and (max-width: 450px) {
     .innerContact {
         flex-wrap: wrap;
@@ -278,7 +311,7 @@ div .cHeader {
     margin-right: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
-    height: 350px;
+    height: 400px;
     background-color: white;
 }
 
@@ -317,3 +350,130 @@ div .cHeader {
 
 
 /* contact us styling end here */
+
+/*//adding media query*/
+@media (max-width: 768px) {
+    .navbar {
+        padding: 5px 0;
+    }
+
+    .nav-links li a {
+        font-size: medium;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        /* Or adjust to your desired width */
+    }
+}
+
+@media (max-width: 768px) {
+    #about .col-left {
+        width: 100%;
+        height: auto;
+    }
+
+    #about .col-right {
+        width: 100%;
+    }
+
+    #about .col-right h2 {
+        font-size: 1.5rem;
+    }
+
+    #about .col-right p {
+        font-size: small;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 5px;
+    }
+
+    .footer p {
+        font-size: small;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .innerContact {
+        margin: 0 auto;
+        /* Center align */
+        width: 90%;
+        /* Or your desired width */
+    }
+
+    .userInfo {
+        width: 100%;
+        /* Adjust width as needed */
+        margin: 0;
+        /* Reset margin */
+    }
+
+    .abouTeam {
+        width: 100%;
+        /* Adjust width as needed */
+    }
+
+    .contacUs {
+        height: 200%;
+        overflow: auto;
+        margin-top: 40px;
+    }
+
+    .aboutUsMain {
+        height: 200%;
+        margin-left: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+}
+
+
+/*for aboutus*/
+/* For screens between 350px and 450px */
+@media (min-width: 350px) and (max-width: 450px) {
+    .abdivison {
+        flex-direction: column;
+        /* Change flex direction to column for smaller screens */
+        align-items: center;
+        /* Center align items vertically */
+    }
+
+    .aboutUsMain {
+        height: 1200px;
+    }
+
+    .aboutCont {
+        width: 80%;
+        /* Adjust width for better fit on smaller screens */
+        margin-top: 10px;
+        height: 550px
+            /* Add some top margin for better spacing */
+    }
+
+    .sytleerImage {
+        width: 100%;
+        /* Adjust width for better fit on smaller screens */
+        margin: 20px auto;
+        /* Center the image */
+    }
+
+    .sytleerImage img {
+        width: 100%;
+        /* Ensure image fills its container */
+        margin: 0;
+        /* Reset margins */
+    }
+
+    .aboutCont p {
+        padding: 15px;
+        /* Adjust padding for better readability on smaller screens */
+    }
+}

@@ -36,7 +36,7 @@ if(!isset($_SESSION['admin_name'])){
    <div class="mainBox">
       <div class="userCompo">
          <div class="content">
-         <h6 class="wlcm">Welcome <span><?php echo $_SESSION['admin_name'] ?></span></h6>
+         <h5 class="wlcm">Welcome <span><?php echo $_SESSION['admin_name'] ?></span></h5>
          <div class="d-grid gap-1">
             <a href="index.html" class="btn btn-outline-primary">Home</a>
             <button class="btn btn-outline-primary" type="button">Offers</button>

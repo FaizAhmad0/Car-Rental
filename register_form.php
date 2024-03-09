@@ -83,12 +83,7 @@ if(isset($_POST['submit'])){
             <input type="submit" name="submit" value="register now" class="alert-success">
             <!-- there you have to change -->
             <p class="al">already have an account? <a href="login_form.php">login now</a></p>
-
-
         </form>
-
     </div>
-
 </body>
-
 </html>
