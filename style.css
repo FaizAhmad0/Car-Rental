@@ -165,3 +165,138 @@ body {
     bottom: 0;
     width: 100vw;
 }
+/* aboutus */
+
+.aboutUsMain {
+    background-color: rgb(229, 240, 237);
+    height: 600px;
+    padding: 30px;
+}
+
+div .abouthero {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.abdivison {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutCont {
+    height: 400px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sytleerImage {
+    height: 380px;
+    width: 323px;
+    border: 10px solid red;
+}
+
+.sytleerImage img {
+    height: 105%;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.aboutCont p {
+    padding: 30px;
+}
+
+/* end of contactus */
+
+
+
+
+/* contact us styling start from here */
+
+.contacUs {
+    height: 550px;
+    background-color: rgb(229, 240, 237);
+}
+
+div .cHeader {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.cHeadrPar {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+
+    height: 80px;
+
+}
+
+.innerContact {
+    display: flex;
+    margin-left: 300px;
+}
+
+.userInfo {
+    margin-right: 20px;
+    height: 450px;
+    width: 450px;
+    padding: 20px;
+    margin-top: 30px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.mb-3 {
+    margin-top: 2rem;
+}
+
+.abouTeam {
+    margin-top: 60px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    height: 350px;
+    background-color: white;
+}
+
+.headTemMem {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.imageTeam {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.imageTeam img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.imageTeam p {
+    align-items: center;
+    text-align: center;
+}
+
+.teamDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+
+
+/* contact us styling end here */
