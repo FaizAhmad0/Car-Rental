@@ -85,7 +85,7 @@ body {
     margin-bottom: 20px;
 }
 
-@media (min-width: 300px) and (max-width: 400px){
+@media (min-width: 350px) and (max-width: 450px){
     .card-main{
         flex-wrap: wrap;
     }
@@ -191,7 +191,7 @@ div .abouthero {
     align-items: center;
     justify-content: center;
 }
-@media (min-width: 300px) and (max-width: 400px) {
+@media (min-width: 350px) and (max-width: 450px) {
     .abdivison {
         flex-wrap: wrap;
     }
@@ -204,11 +204,6 @@ div .abouthero {
     padding: 10px;
 }
 
-@media (max-width:400px){
-    .abdivison{
-        flex-wrap: wrap;
-    }
-}
 
 .sytleerImage {
     height: 380px;
@@ -259,7 +254,7 @@ div .cHeader {
     display: flex;
     margin-left: 300px;
 }
-@media (min-width: 300px) and (max-width: 400px) {
+@media (min-width: 350px) and (max-width: 450px) {
     .innerContact {
         flex-wrap: wrap;
     }
